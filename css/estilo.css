@@ -80,6 +80,10 @@ body{
 .bis{
     display: none;
 }
+/* carrusel */
+.d-block{
+    max-height: 500px;
+}
 /* contenedor */
 .contenedor{
     background-color: var(--cuarto);
@@ -266,6 +270,69 @@ justify-content: space-evenly;
 
     }
 }
-
-
-
+/* pagina-nosotros */
+.contenedor__nosotros{
+  
+}
+.nosotros__img{
+text-align: center;
+margin: 20px;
+}
+.img__bloque2{
+    max-width: 50%;
+    border-radius: 50%;
+    box-shadow: 10px 5px 8px var(--tercero);
+}
+.subtitulo{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    color: var(--segundo);
+}
+.nosotros__texto{
+    margin: 50px;
+    margin-top: 0;
+    padding: 30px;
+    text-align: justify;
+    background-color: var(--segundo);
+    border-radius: 10px;
+    box-shadow: 10px 5px 8px var(--tercero);
+    color: var(--cuarto);
+}
+/* pagina de motos */
+.contenedor__motos{
+    background-color: var(--cuarto);
+    display: flex;
+}
+.precio{
+    text-align: center;
+    color: var(--segundo);
+    text-transform: uppercase;
+}
+.valor{
+    text-align: center;
+    color: var(--segundo);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.motos_img{
+    max-width: 100%;
+}
+@media (max-width:380px){
+    .contenedor__motos{
+        flex-direction: column;
+    }
+}
+/* pagina de ubicanos */
+.contenedor__motos{
+    background-color: var(--cuarto);
+    text-align: center;
+}
+.mapa{
+    padding: 20px;
+    margin:0 auto;
+}
+/* pagina de promociones */
+.img_promo{
+    max-width: 100%;
+}
